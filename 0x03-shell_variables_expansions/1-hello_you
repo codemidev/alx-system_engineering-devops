@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "hello" $USER
+echo -n "hello" whoami
