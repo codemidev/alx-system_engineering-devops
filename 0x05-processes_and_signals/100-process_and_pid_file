@@ -13,7 +13,7 @@ function love() {
 trap "echo I hate the kill command;love" SIGTERM
 trap "echo Y U no love me?!;love" SIGINT
 
-echo $$ >> /var/run/holbertonscript.pid
+echo $$ >> /var/run/myscript.pid
 while [ true ]; do
     echo To infinity and beyond;
 done
