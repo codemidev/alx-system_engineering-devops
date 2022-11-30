@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f | head -n 6 | wc -l
+echo $PATH | tr ":" "\n" | wc -l
