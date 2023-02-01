@@ -13,6 +13,4 @@ Learning about creating and setting up ssh keys.
 | 2-ssh_config | Configuring the ssh config file of a Vagrant machine running Ubuntu 14.04 |
 
 
-## Authors :black_nib:
-
-- [Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
+## Authors :

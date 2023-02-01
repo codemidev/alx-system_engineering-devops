@@ -22,6 +22,4 @@ Automating setup for a web server. We will be using ngnix for our web server.
 1542-web-01	     ubuntu	    34.73.222.49	   running	     Soft reboot	    Hard reboot	     Ask a new server
 ```
 
-## Authors :black_nib:
-
-- [Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
+## Authors :

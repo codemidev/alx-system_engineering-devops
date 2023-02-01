@@ -31,8 +31,4 @@ This project covers permissions, users, groups, and file/directory ownership.
 1. Create a script that plays Star Wars Episode IV in the terminal.
 1. Create a man page that looks like a sample man page and has the same `wc` output.
 
-## Author :octocat:
-
-[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) |
-[GitHub](https://github.com/Esteban18911)
-
+## Author: 

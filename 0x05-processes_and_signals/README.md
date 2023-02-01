@@ -36,7 +36,4 @@ This projects deals with processes and signals in bash.
 
 To compile 102-zombie.c run the command `gcc -Wall -Werror -Wextra -pedantic` and run using the command `./[executable name]`
 
-## Author :octocat:
-
-[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
-
+## Author :

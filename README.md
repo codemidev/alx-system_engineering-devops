@@ -1,4 +1,4 @@
-# System Engineering and DevOps :bullettrain_side:
+# System Engineering and DevOps :
 
 ## Introduction :notebook:
 
@@ -94,4 +94,4 @@ git clone https://github.com/Esteban1891/[Github project directory]
 
 ## Author 
 
-[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
+[Julius O Rapheal ](https://www.linkedin.com//) | [Twitter](https://twitter.com) | [GitHub](https://github.com/)

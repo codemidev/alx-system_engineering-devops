@@ -15,6 +15,4 @@ This projects deals with basics of networks and introduces concepts that are key
 | 4-TCP_and_UDP_ports | Answer file for questions about UDP and TCP ports |
 | 5-is_the_host_on_the_network | Pings an IP address passed as an argument |
 
-## Author :octocat:
-
-[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
+## Author :

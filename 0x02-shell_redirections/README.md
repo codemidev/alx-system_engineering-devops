@@ -41,6 +41,4 @@ This projects deals with redirections and Input/Output in the shell.
 | 102-acrostic | Decodes an acrostic |
 | 103-the_biggest_fan | Parses web server logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests |
 
-## Author :octocat:
-
-[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
+## Author :

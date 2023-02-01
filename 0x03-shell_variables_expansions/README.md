@@ -32,7 +32,4 @@ This projects deals with variables and expansions in the shell.
 | 101-odd | Prints every other line from input starting with the first line |
 | 102-water_and_stir | Adds the numbers stored in `WATER` & `STIR` and prints the results |
 
-## Author :octocat:
-
-[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
-
+## Author :

@@ -32,6 +32,4 @@ This projects introduces loops and conditions in bash scripting and introducing 
 | 103-dig_the_data | Groups visitors by IP and HTTP status codes and displays the data |
 
 
-## Author :octocat:
-
-[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
+## Author :

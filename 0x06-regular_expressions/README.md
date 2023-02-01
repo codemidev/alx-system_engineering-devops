@@ -24,6 +24,4 @@ This projects deals with regular expressions.
 | 100-textme.rb | Regular expression to find the senders phone number, the receivers phone number, and the flags that were used from a log file |
 | 101-passed_linkedin_regex_challenge.jpg | Picture verifying that I passed the LinkedIn regex challenge |
 
-## Author :octocat:
-
-[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)
+## Author :
