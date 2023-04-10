@@ -1,7 +1,16 @@
 #!/usr/bin/env bash
-# Installing nginx on our webserver
-sudo apt-get -y update
-sudo apt-get -y install nginx
-sudo chown  $USER:$USER /var/www/html/index.html
-echo "Holberton School makes learning fun." > /var/www/html/index.html
-service nginx restart
+# installs nginx and configures it on a remote server
+
+apt-get -y update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+echo hello world > /tmp/test
+printf %s "server {
+    listen		80 default_server;
+    listen		[::]:80 default_server;
+    root		/var/www/html;
+    index		index.html index.htm index.nginx-debian.html;
+}"
+> /etc/nginx/sites-available/default
+
+service nginx start
