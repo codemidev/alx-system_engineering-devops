@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # update ssh config
-Host holberton
+Host school
     HostName 34.73.222.49
     User ubuntu
     Port 22
