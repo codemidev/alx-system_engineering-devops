@@ -1,11 +1,2 @@
-from datadog import initialize, api
-
-options = {
-    'api_key': 'ac00aa1fa3626c329525d085bc3d905e',
-    'app_key': '19c989ea-9135-41e6-93f0-672b1037eecd'
-}
-
-initialize(**options)
-
-
-print(api.Dashboard.delete(dashboard_id))
+ac00aa1fa3626c329525d085bc3d905e
+19c989ea-9135-41e6-93f0-672b1037eecd
