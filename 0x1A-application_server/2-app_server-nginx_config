@@ -1,26 +1,9 @@
 server {
-        listen 80 default_server;
-        listen [::]:80 default_server;
+    listen 80;
+    server_name 18.207.236.125;
 
-        server_name _;
-        rewrite ^/redirect_me https://www.github.com/codemidev  permanent;
-        error_page 404 /custom_404.html;
-        index index.html index.htm;
-        error_page 404 /404.html;
-        add_header X-Served-By $hostname;
-
-        location / {
-                root /var/www/html/;
-                try_files $uri $uri/ =404;
-        }
-
-
-        location /airbnb-onepage/ {
-                proxy_pass http://localhost:5000;
-        }
-
-        location = /404.html {
-                root /var/www/error/;
-                internal;
-        }
+    location /airbnb-onepage/ {
+        include proxy_params;
+        proxy_pass http://localhost:5000;
+    }
 }
