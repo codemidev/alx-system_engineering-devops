@@ -1,3 +1,19 @@
-#!/usr/bin/env bash
-# restart gracefully gunicorn
-pkill -HUP gunicorn
+server {                                  
+    listen 80;                            
+    server_name 18.207.236.125;           
+
+    location /airbnb-onepage/ {
+        include proxy_params; 
+        proxy_pass http://localhost:5000;
+    }
+              
+    location /airbnb-dynamic/ {           
+        include proxy_params;
+        proxy_pass http://localhost:5001/;
+        }
+        
+     location /api/ {           
+        include proxy_params;
+        proxy_pass http://localhost:5002/;
+        }
+}
