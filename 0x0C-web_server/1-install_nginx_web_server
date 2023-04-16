@@ -1,13 +1,6 @@
 #!/usr/bin/env bash
-#INstall NGINX and configue the default html page
 # installs nginx and configures it on a remote server
 
-sudo apt-get update -y
-sudo apt-get install nginx -y
-sudo service nginx start
-sudo chmod 644 /var/www/html/index.nginx-debian.html
-echo "Hello World!" > /var/www/html/index.nginx-debian.html
-sudo service nginx restart
 apt-get -y update
 apt-get -y install nginx
 ufw allow 'Nginx HTTP'
@@ -19,5 +12,9 @@ printf %s "server {
     index		index.html index.htm index.nginx-debian.html;
 }"
 > /etc/nginx/sites-available/default
+# Installs Nginx
 
+apt-get update
+apt-get install -y nginx
+echo "Holberton School" > /var/www/html/index.html
 service nginx start
