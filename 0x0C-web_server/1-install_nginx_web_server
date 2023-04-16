@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
-# Installs Nginx
-#INstall NGINX and configue the default html page
+# This script installs a nginx web server
 
-sudo apt-get update -y
-sudo apt-get install nginx -y
-sudo service nginx start
-sudo chmod 644 /var/www/html/index.nginx-debian.html
-echo "Holberton School" > /var/www/html/index.nginx-debian.html
-echo "Hello World!" > /var/www/html/index.nginx-debian.html
+sudo apt update
+sudo apt install nginx -y
+sudo ufw allow 22
+sudo ufw allow 80
+sudo ufw --force enable
+sudo ufw status
+systemctl status nginx
+echo 'Holberton School' | sudo tee /var/www/html/index.nginx-debian.html > /dev/null
 sudo service nginx restart
