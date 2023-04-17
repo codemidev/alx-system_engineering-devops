@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script installs a nginx web server
+# Configuring a server with specification XYZ
 
 sudo apt update
 sudo apt install nginx -y
@@ -8,5 +8,6 @@ sudo ufw allow 80
 sudo ufw --force enable
 sudo ufw status
 systemctl status nginx
-echo 'Holberton School' | sudo tee /var/www/html/index.nginx-debian.html > /dev/null
+echo hello world > /tmp/test
+sed -i 's/80/8080/g' /etc/nginx/sites-enabled/default
 sudo service nginx restart
